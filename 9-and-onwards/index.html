@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        
+    <form method="GET">
+        <fieldset>
+            <p>
+                <label for="searching">
+                    <h3>SEARCH</h3>
+                    <br />
+                    <input type="search" name="search" id="searching" placeholder="search your requirement" /> </label>
+                <input type="submit" value="submit" /> </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h3>CONTACT INFO</h3></legend>
+            <p> <strong>Username:</strong>
+                <input type="text" name="username" required="required" size="15" maxlength="35" />
+
+            </p>
+            <p>
+                <strong>Password: </strong>
+                <input type="password" required="required" name="password" size="15" maxlength="30" />
+
+            </p>
+            <p>
+                what do you think of yourself
+                <br>/
+                <textarea name="comments" cols="30" rows="10"> I am </textarea>
+            </p>
+        </fieldset>
+        <br />
+        <br />
+        <br />
+        <fieldset>
+            <legend>
+                <h3>TASTE OF MUSIC & SUBSCRIPTION</h3></legend>
+            <p>
+                what kind of music u like to hear most often to ? (select one)
+                <br />
+                <input type="radio" name="music genre" value="rock" checked="checked" /> <strong>Rock</strong>
+                <input type="radio" name="music genre" value="jazz" /> <strong>Jazz</strong>
+                <input type="radio" name="music genre" value="pop" /> <strong>Pop</strong>
+
+            </p>
+            <br />
+            <br />
+            <br />
+            <P>
+                What are the services u often hear songs on ? (select one)
+                <br />
+              <label>  <input type="checkbox" name="music services" value="soundcloud" /> <strong>SoundCloud</strong></label>
+             <label>   <input type="checkbox" name="music services" value="spotify" checked="checked" /> <strong>Spotify</strong></label>
+            <label>   <input type="checkbox" name="music services" value="itunes" /> <strong>Itunes</strong></label>
+            </P>
+            <br />
+            <br />
+            <br />
+           <!-- <p>
+                Which devices do you listen music on (u can select more than one)
+                <br />
+                <input type="checkbox" name="devices" value="mobile" /> <strong>Mobile</strong>
+                <input type="checkbox" name="devices" value="laptop/desktop" /> <strong>Laptop/Desktop</strong>
+                <input type="checkbox" name="device" value="ipod" /> <strong>Ipod</strong>
+
+            </p>-->
+            <br />
+            <br />
+            <br />
+            <p>Select the language you listen songs of ? (select one)
+                <br />
+                <select name="languages">
+                    <option value="urdu"> <strong>Urdu</strong> </option>
+                    <option value="punjabi"><strong>Punjabi</strong></option>
+                    <option value="hindi"><strong>Hindi</strong></option>
+                    <option value="english" selected="selected"><strong>English</strong></option>
+                    <option value="spanish"><strong>Spanish</strong></option>
+                    <option value="french"><strong>French</strong></option>
+                    <option value="portugues"><strong>Portugues</strong></option>
+                    <option value="catalan"><strong>Catalan</strong></option>
+                    <option value="chinese"> <strong>Chinese</strong></option>
+                </select>
+            </p>
+            <br />
+            <br />
+            <br />
+
+            <p>
+
+                Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)
+            </p>
+            <select name="instruments" size="3" multiple="multiple">
+
+                <option value="guitar" selected="selected"> <strong>Guitar</strong></option>
+                <option value="piano"> <strong>Piano</strong></option>
+                <option value="drum"> <strong>Drum</strong> </option>
+                <option value="mouthOrgan" selected="selected"> <strong>MouthOrgan</strong></option>
+                <option value="none"> <strong>None</strong></option>
+
+            </select>
+            <br />
+            <br />
+            <br />
+            <p>
+                Upload your favourite song or can eventually upload a song that is sung by you </p>
+
+            <input type="file" name="user-song-selection/sing" />
+            <br />
+            <input type="submit" value="Upload" />
+            <br />
+            <br />
+            <br />
+            <p>
+                U can keep upto date by subscribing to our newsletter
+                <br />
+                <input type="email" name="user-email" size="30" maxlength="30" required="required" />
+                <br />
+                <input type="image" src="sum.png" width="86.8" height="34.7" />
+                <br />
+                <br />
+                <br />
+                <label> <strong>Your Favourite Music Website Address</strong>
+                    <br/>
+                    <input type="url" name="website of music" /> </label>
+
+            </p>
+        </fieldset>
+        <br />
+        <br />
+        <br />
+        <fieldset>
+            <legend>
+                <h3>AGENDER</h3></legend>
+            <p>
+                <label> <strong>Age:</strong>
+                    <input type="text" name="age"> </label>
+                <br />
+                <strong>Gender:</strong>
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male </label>
+                <input type="radio" name="gender" id="female" />
+                <label for="female"> Female</label>
+                <input type="radio" id="rathernotsay" name="gender" />
+                <label for="rathernotsay">Rather Not Say</label>
+                <br />
+                <br />
+                <br />
+                <label for="date"> <strong>Date Of Birth</strong> </label>
+                <br />
+                <input type="date" id="date" name="bithday" required="required" />
+                <input type="submit" value="sumbit">
+            </p>
+        </fieldset>
+
+        <br />
+        <br />
+        <br />
+
+    </form>
+</body>
+
+</html>

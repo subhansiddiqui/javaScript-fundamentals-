@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.click {
+  padding: 8px;
+  font-family: Effra Light;
+  text-transform: capitalize;
+  font-size: 16px;
+  text-align: center;
+
+  border: 2px solid rgb(90, 87, 87);
+  border-radius: 10px;
+}
+.click:hover {
+  background-color: rgb(88, 85, 85);
+  color: aliceblue;
+  cursor: pointer;
+}
+.styling {
+  font-family: Effra Light, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgb(53, 53, 52);
+  color: antiquewhite;
+  padding: 10px;
+}
+
+div {
+  margin: 30px;
+}

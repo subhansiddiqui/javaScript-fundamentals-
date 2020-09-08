@@ -1,0 +1,67 @@
+body {
+  font-family: "Effra Light";
+}
+.backup {
+  background-color: rgb(27, 216, 153);
+  border: coral 5px solid;
+  width: 500px;
+  height: 321.5px;
+}
+.hideImage {
+  display: none;
+}
+
+.uglySize {
+  width: 500px;
+  height: 321.5px;
+}
+.resize {
+  width: 420px;
+  height: 600px;
+}
+#button {
+  margin: 20px auto 50px auto;
+  /* background-color: crimson; */
+  display: flex;
+  justify-content: center;
+}
+.click {
+  padding: 8px;
+  font-family: Effra Light;
+  text-transform: capitalize;
+  font-size: 16px;
+  text-align: center;
+
+  border: 2px solid rgb(90, 87, 87);
+  border-radius: 10px;
+}
+.click:hover {
+  background-color: rgb(88, 85, 85);
+  color: aliceblue;
+  cursor: pointer;
+}
+table {
+  border: 2px solid;
+  border-spacing: 0px;
+  margin-bottom: 40px;
+}
+td {
+  border: 1px solid;
+  padding: 10px;
+}
+tr {
+  background-color: rgb(255, 255, 255);
+}
+th {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid;
+  padding: 10px;
+}
+#second {
+  margin: 20px auto 50px auto;
+  /* background-color: crimson; */
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,122 @@
+body {
+  font-family: "Effra Light";
+  margin: 0px;
+  padding: 0px;
+}
+div.form {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+}
+#name {
+  width: 200px;
+  padding: 5px;
+  height: 20px;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 2px;
+}
+strong {
+  /* background-color: aqua; */
+  padding: 5px;
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 0.75px;
+}
+#submitt {
+  /* background-color: chartreuse; */
+  font-family: Effra Light;
+  padding: 7px;
+  width: 100px;
+  margin-left: 7px;
+  font-size: 14px;
+  text-transform: capitalize;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+img:hover {
+  cursor: pointer;
+}
+div.align {
+  justify-content: center;
+  width: 100%;
+}
+#food {
+  border: pink 5px solid;
+  position: relative;
+  left: 300px;
+}
+div.another {
+  border-color: rgb(0, 140, 255);
+  border-radius: 30px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+#sumbit {
+  margin: 10px auto;
+}
+/* div.tranform {
+  width: 100px;
+  margin-top: 20px;
+  height: fit-content;
+  border: turquoise 10px solid;
+}
+img.all {
+  width: 100px;
+  height: 200px;
+} */
+div.tranform {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* label { */
+/* background-color: turquoise; */
+/* margin-top: 300px; */
+/* margin-left: 20px; */
+/* } */
+main {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+form {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: poppins;
+  font-weight: 300;
+}
+fieldset {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#subm {
+  /* background-color: chartreuse; */
+  font-family: Effra Light;
+  padding: 7px;
+  width: 100px;
+  margin-left: 7px;
+  font-size: 14px;
+  text-transform: capitalize;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#karachi {
+  border: 5px rgb(177, 136, 2) solid;
+}
+#paraAboutKarachi {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 10px;
+
+  padding: 5px;
+}
